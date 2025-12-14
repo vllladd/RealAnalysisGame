@@ -168,6 +168,8 @@ Languages "en"
 CaptionShort "Real Analysis, The Game"
 CaptionLong "Learn real analysis through the historical crises that forced mathematicians to rebuild calculus from the ground up in the 19th century."
 
+CoverImage "images/cover.png"
+
 set_option lean4game.showDependencyReasons true
 
 /-! Build the game. Show's warnings if it found a problem with your game. -/
