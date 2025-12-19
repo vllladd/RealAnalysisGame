@@ -28,7 +28,7 @@ Ah, but maybe there's always *some* subsequence that converges? Hmm, but that ca
 
 Oh! But wait, that sequence isn't bounded. Are you saying that if all I know about a sequence is that it's bounded, then there's always *some* subsequence that converges?
 
-**SOCRATES:** Yes, precisely! This important fact is called the \"Bolzano-Weierstrauss theorem\". But here's where it gets **really** subtle. Think about the sequence of fractions: `a (0) = 1 / 1`, `a (1) = 14 / 10`, `a (2) = 141 / 100`, `a (3) = 1414 / 1000`, ... getting closer and closer to $1.4142\\dots = \\sqrt 2$. The sequence is bounded (by $2$, to be crude), and even increasing, but its limit is not a rational number! So the Bolzno-Weierstrauss theorem is not true for the rationals. As I warned you long ago, we'll have to eventually face the fact that we don't even know what the real numbers *are*. I think that time is now.
+**SOCRATES:** Yes, precisely! This important fact is called the \"Bolzano-Weierstrass theorem\". But here's where it gets **really** subtle. Think about the sequence of fractions: `a (0) = 1 / 1`, `a (1) = 14 / 10`, `a (2) = 141 / 100`, `a (3) = 1414 / 1000`, ... getting closer and closer to $1.4142\\dots = \\sqrt 2$. The sequence is bounded (by $2$, to be crude), and even increasing, but its limit is not a rational number! So the Bolzano-Weierstrass theorem is not true for the rationals. As I warned you long ago, we'll have to eventually face the fact that we don't even know what the real numbers *are*. I think that time is now.
 
 **SIMPLICIO:** Fine, I'm ready; tell me what they are.
 
