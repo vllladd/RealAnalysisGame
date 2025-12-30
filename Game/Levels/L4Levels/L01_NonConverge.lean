@@ -113,6 +113,8 @@ And that get us the desired contradiction.
 Warning! Make sure the pattern `|-Something|` is on the left hand side. If Lean doesn't see an absolute value
 followed by a minus sign, `abs_neg` won't work!
 
+- **Equality tactics**: The `bound` and 'ring_nf' tactic also help prove some equalities as well. You can use them to prove whatever arithmetic facts seem obvious, like exponent simplifications. If one doesn't work, try the other!
+
 
 "
 
