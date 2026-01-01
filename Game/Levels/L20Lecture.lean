@@ -103,7 +103,7 @@ And this is exactly like the derivative situation. The difference quotient $\\fr
 **SOCRATES:** Precisely! You've understood the key point. The limit tells us about the *tendency* of a function as we approach a point, not necessarily what happens *at* that point.
 
 **SIMPLICIO:** So to summarize:
-- For limits, we assume $|x - c| < \\delta$ **and**  $x \\ne 0$ (punctured neighborhood)
+- For limits, we assume $|x - c| < \\delta$ **and**  $x \\ne c$ (punctured neighborhood)
 - For continuity, we only need $|x - c| < \\delta$; this is equivalent to:
 the limit exists AND equals $f(c)$.
 

@@ -138,5 +138,4 @@ You've now established that `f(x) = x² - 1` is:
 - **Differentiable everywhere** (from Level 3)
 
 This illustrates a fundamental hierarchy: differentiability implies continuity. Functions that have derivatives must be continuous, but continuous functions need not have derivatives everywhere.
-a
 "
