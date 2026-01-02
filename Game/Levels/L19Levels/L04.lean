@@ -1,4 +1,5 @@
 import Game.Levels.L19Levels.L03
+import Game.Levels.L19Levels.L04Aux
 
 open Finset
 
@@ -74,11 +75,11 @@ Your task: Appreciate the statement of this magnificent theorem (the full proof 
 /--
 Prove the `Conditional Convergence Theorem`
 -/
-Statement  {a : ℕ → ℝ} (ha1 : SeriesConv a) (ha2 : ¬ AbsSeriesConv a) : ∀ L,
-  ∃ (σ : ℕ → ℕ) (hσ : Rearrangement σ), SeriesLim (a ∘ σ) L := by
-
-sorry
-
+Statement  {a : ℕ → ℝ} (ha1 : SeriesConv a) (ha2 : ¬ AbsSeriesConv a) :
+∀ L, ∃ (σ : ℕ → ℕ) (hσ : Rearrangement σ), SeriesLim (a ∘ σ) L := by
+  intro L
+  choose σ hσ h using @L04Aux.exi_rment_tendsTo_of_condConv a L ⟨ha1, ha2⟩
+  use σ, hσ, h
 
 Conclusion "
 # Congratulations!
